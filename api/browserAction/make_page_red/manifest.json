@@ -1,0 +1,13 @@
+{
+  "name": "Page Redder",
+  "description": "Make the current page red",
+  "version": "2.0.1",
+  "manifest_version": 3,
+  "permissions": ["activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Make this page red"
+  }
+}
