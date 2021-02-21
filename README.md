@@ -1,4 +1,4 @@
-# リポジトリ名
+# Repository
 chrome-extensions-samples
 
 ## Dependency
