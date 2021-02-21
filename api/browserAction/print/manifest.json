@@ -1,0 +1,16 @@
+{
+  "name": "Print this page",
+  "description": "Adds a print button to the browser.",
+  "version": "1.2.1",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab"],
+  "action": {
+    "default_title": "Make this page red",
+    "default_icon": {
+      "16": "print_16x16.png"
+    }
+  }
+}
