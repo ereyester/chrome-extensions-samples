@@ -1,0 +1,13 @@
+{
+  "name": "BrowsingData API: Basics",
+  "description": "A trivial usage example.",
+  "version": "1.1.1",
+  "manifest_version": 3,
+  "permissions": ["browsingData", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "icon.png"
+    }
+  }
+}
