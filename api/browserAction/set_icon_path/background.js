@@ -8,7 +8,7 @@ chrome.runtime.onInstalled.addListener(() => {
 
 function updateIcon() {
   chrome.storage.sync.get('number', (data) => {
-    var current = data.number;
+    let current = data.number;
     chrome.action.setIcon({path: 'icon' + current + '.png'});
     current++;
     if (current > 5)
