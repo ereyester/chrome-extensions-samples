@@ -1,14 +1,24 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+# リポジトリ名
+chrome-extensions-samples
 
+## Dependency
+https://github.com/GoogleChrome/chrome-extensions-samples
+This URL sample is rewritten from Manifest V2 to Manifest V3.
 
-Hi there! Welcome to AWS Cloud9!
+## Setup
+download only
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
+## Usage
+chrome://extensions/ 
+Open this URL and turn on "Developer Mode"
 
-Happy coding!
+## License
+https://github.com/GoogleChrome/chrome-extensions-samples
+Same as the license for this URL.
+
+## Authors
+ereyester
+
+## References
+https://github.com/GoogleChrome/chrome-extensions-samples
+https://developer.chrome.com/docs/extensions/mv3/
