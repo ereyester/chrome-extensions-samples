@@ -1,4 +1,4 @@
-# Repository
+# chrome-extensions-samples
 chrome-extensions-samples
 
 ## Dependency
