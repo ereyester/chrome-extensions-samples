@@ -134,7 +134,7 @@ function removeCookie(cookie) {
 
 function removeCookiesForDomain(domain) {
   var timer = new Timer();
-  cache.getCookies(domain).forEach(function(cookie) {
+  cache.getCookies(domain).forEach((cookie) => {
     removeCookie(cookie);
   });
 }
@@ -176,7 +176,7 @@ function reloadCookieTable() {
   resetTable();
   var table = select("#cookies");
 
-  domains.forEach(function(domain) {
+  domains.forEach((domain) => {
     var cookies = cache.getCookies(domain);
     var row = table.insertRow(-1);
     row.insertCell(-1).innerText = domain;
@@ -191,7 +191,7 @@ function reloadCookieTable() {
         removeCookiesForDomain(dom);
       };
     }(domain));
-    var cell = row.insertCell(-1);
+    cell = row.insertCell(-1);
     cell.appendChild(button);
     cell.setAttribute("class", "button");
   });
@@ -247,7 +247,7 @@ function onload() {
   });
 }
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', () => {
   onload();
   document.body.addEventListener('click', focusFilter);
   document.querySelector('#remove_button').addEventListener('click', removeAll);
