@@ -1,4 +1,4 @@
-# chrome-extensions-samples
+# chrome-extensions-samples mv3
 
 ## Dependency
 https://github.com/GoogleChrome/chrome-extensions-samples
