@@ -1,0 +1,14 @@
+{
+  "name": "My Devices",
+  "version": "1.1.1",
+  "description": "A browser action with a popup dump of all devices signed into the same account as the current profile.",
+  "manifest_version": 3,
+  "permissions": ["signedInDevices"],
+  "action": {
+    "default_title": "My Devices",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png"
+    }
+  }
+}
